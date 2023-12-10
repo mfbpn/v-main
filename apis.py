@@ -19,7 +19,10 @@ from requests.adapters import HTTPAdapter
 from urllib3 import Retry
 from urllib3.util import parse_url
 
-from utils import (cached, get, keep, parallel_map, rand_id, str2size,
+#from utils import (cached, get, keep, parallel_map, rand_id, str2size,
+#                   str2timestamp)
+
+from utils import (get, keep, parallel_map, rand_id, str2size,
                    str2timestamp)
 
 REDIRECT_TO_GET = 1
