@@ -5,8 +5,8 @@ from itertools import chain #在不同的列表中进行循环？ 用法详解 h
 from random import choice, randint  #choice随机抽样，randint随机范围整数 https://zhuanlan.zhihu.com/p/98298060
 from time import time   #time.time() 功能：获取当前本地的时间戳      time模块 https://blog.csdn.net/jamfiy/article/details/88195846
 
-#from apis import (HkspeedupSession, Session, SSPanelSession, TempEmail, V2BoardSession) #自建API库 apis.py
-from apis import PanelSession, TempEmail, guess_panel, panel_class_map
+from apis import (HkspeedupSession, Session, SSPanelSession, TempEmail, V2BoardSession) #自建API库 apis.py
+#from apis import PanelSession, TempEmail, guess_panel, panel_class_map
 from subconverter import gen_base64_and_clash_config, get                               #自建subconverter库 subconverter.py
 from utils import (clear_files, get_id, list_file_paths, list_folder_paths,
                    read, read_cfg, remove, size2str, str2timestamp,
